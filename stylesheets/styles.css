@@ -88,6 +88,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /*added*/
+  padding-bottom: 9%;
 }
 
 .detail-image-frame {
@@ -109,7 +112,7 @@ a {
   font-size: 40px;
 }
 
-@media all and (min-width: 768px) {
+@media screen and (orientation: landscape) {
   /* Styles will go here */
   .main-content {
     flex-direction: row;
